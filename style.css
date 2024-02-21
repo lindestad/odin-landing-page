@@ -201,6 +201,7 @@ ul {
 .cta-colored-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #3882F6;
     padding: 50px 20px;
     min-width: 800px;
