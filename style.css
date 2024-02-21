@@ -10,7 +10,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: Hero, sans-serif;
+    font-family: sans-serif;
 }
 
 .header-background {
@@ -23,7 +23,6 @@ p {
 .header {
     display: flex;
     justify-content: space-between;
-    font-family: sans-serif;
     color: #F9FAF8;
     height: 4em;
     padding: 0px 32px;
@@ -171,7 +170,6 @@ ul {
 }
 
 .quote-container {
-    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,6 +191,49 @@ ul {
     padding-right: 40px;
 }
 
+.cta-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.cta-colored-container {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 50px 20px;
+    min-width: 800px;
+    max-width: 1080px;
+    border-radius: 8px;
+    flex-grow: 0.5;
+}
+
+.cta-text-container {
+    color:#F9FAF8;
+    padding-right: 150px;
+}
+
+.cta-text-container .text-big {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.cta-button {
+    border: solid;
+    border-color: #F9FAF8;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-width: 2px;
+    border-radius: 8px;
+    padding: 4px 24px;
+    height: fit-content;
+    font-weight: 600;
+}
+
+.empty-container {
+    flex-grow: 1;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -200,4 +241,5 @@ ul {
     background-color: #1F2937;
     color: #E5E7EB;
     padding: 24px;
+    margin-top: auto;
 }
